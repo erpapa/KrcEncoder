@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1880E86F2446899500DB8F11 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1880E86E2446899500DB8F11 /* main.c */; };
+		1880E877244689A300DB8F11 /* miniz.c in Sources */ = {isa = PBXBuildFile; fileRef = 1880E876244689A300DB8F11 /* miniz.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		1880E86B2446899500DB8F11 /* KrcEncoder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KrcEncoder; sourceTree = BUILT_PRODUCTS_DIR; };
 		1880E86E2446899500DB8F11 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		1880E875244689A300DB8F11 /* miniz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = miniz.h; sourceTree = "<group>"; };
+		1880E876244689A300DB8F11 /* miniz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = miniz.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		1880E86D2446899500DB8F11 /* KrcEncoder */ = {
 			isa = PBXGroup;
 			children = (
+				1880E875244689A300DB8F11 /* miniz.h */,
+				1880E876244689A300DB8F11 /* miniz.c */,
 				1880E86E2446899500DB8F11 /* main.c */,
 			);
 			path = KrcEncoder;
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1880E86F2446899500DB8F11 /* main.c in Sources */,
+				1880E877244689A300DB8F11 /* miniz.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
